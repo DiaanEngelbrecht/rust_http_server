@@ -1,5 +1,6 @@
 use std::str::FromStr;
 
+#[derive(Debug)]
 pub enum Method {
     GET,
     POST,
@@ -26,7 +27,7 @@ impl FromStr for Method {
             "CONNECT" => Ok(Method::CONNECT),
             "OPTIONS" => Ok(Method::OPTIONS),
             "TRACE" => Ok(Method::TRACE),
-			_ => Err(MethodError)
+            _ => Err(MethodError),
         }
     }
 }
