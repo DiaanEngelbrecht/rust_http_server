@@ -1,3 +1,20 @@
+body {
+  background: #121212;
+  color: #FFFFFF;
+  font-family: 'Verdana';
+}
+
 h1 {
-  color: red;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+}
+
+div {
+  color: #000000;
+  background-color: #FF7597;
+  width: 80%;
+  padding: 30px;
+  margin: 0 auto;
+  border-radius: 0.5em;
 }
